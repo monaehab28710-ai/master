@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Master Growth (MG) | أفضل شركة تسويق إلكتروني وإدارة حملات</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&family=Playfair+Display:wght@700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script>
+tailwind.config={
+  theme:{
+    extend:{
+      colors:{
+        navy:'#070F26',
+        navy2:'#0B1E3B',
+        navy3:'#132A4C',
+        gold:'#C9A86A',
+        gold2:'#E8C99A',
+        goldDark:'#A88A52'
+      },
+      fontFamily:{
+        cairo:['Cairo','sans-serif'],
+        playfair:['Playfair Display','serif']
+      }
+    }
+  }
+}
+</script>
+<style>
+*{font-family:'Cairo',sans-serif}
+html{scroll-behavior:smooth}
+body{background:#070F26;overflow-x:hidden}
+.gold-gradient{background:linear-gradient(135deg,#C9A86A 0%,#E8C99A 50%,#A88A52 100%)}
+.text-gold-gradient{background:linear-gradient(135deg,#C9A86A 0%,#FFE8B8 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.glow-gold{box-shadow:0 0 30px rgba(201,168,106,0.3),0 0 60px rgba(201,168,106,0.15)}
+.nav-glass{background:rgba(7,15,38,0.85);backdrop-filter:blur(16px);border-bottom:1px solid rgba(201,168,106,0.12)}
+.hero-bg{
+  background:
+  radial-gradient(ellipse 800px 600px at 20% 10%, rgba(201,168,106,0.08) 0%, transparent 60%),
+  radial-gradient(ellipse 600px 400px at 85% 70%, rgba(19,42,76,0.9) 0%, transparent 60%),
+  linear-gradient(180deg,#0B1E3B 0%, #070F26 60%, #070F26 100%);
+}
+.grid-pattern{
+  background-image:
+  linear-gradient(rgba(201,168,106,0.04) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(201,168,106,0.04) 1px, transparent 1px);
+  background-size:50px 50px;
+}
+.carousel-track{animation:scroll 30s linear infinite}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.carousel-track:hover{animation-play-state:paused}
+.stat-card{transition:all 0.4s ease}
+.stat-card:hover{transform:translateY(-6px);border-color:rgba(201,168,106,0.4)!important;box-shadow:0 20px 40px rgba(0,0,0,0.4),0 0 20px rgba(201,168,106,0.1)}
+.project-card{transition:all 0.4s cubic-bezier(0.4,0,0.2,1)}
+.project-card:hover{transform:translateY(-8px);box-shadow:0 25px 50px rgba(0,0,0,0.5)}
+.project-card:hover .project-img{transform:scale(1.08)}
+.article-card{transition:all 0.35s ease}
+.article-card:hover{transform:translateY(-6px);border-color:rgba(201,168,106,0.3)!important}
+.fade-up{opacity:0;transform:translateY(24px);transition:all 0.7s cubic-bezier(0.4,0,0.2,1)}
+.fade-up.in{opacity:1;transform:translateY(0)}
+.gold-ring{position:relative}
+.gold-ring::before{content:'';position:absolute;inset:-1px;background:linear-gradient(135deg,#C9A86A,#FFE8B8,#A88A52);border-radius:inherit;z-index:-1;opacity:0;transition:opacity 0.3s}
+.gold-ring:hover::before{opacity:1}
+::-webkit-scrollbar{width:8px;height:8px}
+::-webkit-scrollbar-track{background:#070F26}
+::-webkit-scrollbar-thumb{background:#1e3358;border-radius:99px}
+::-webkit-scrollbar-thumb:hover{background:#C9A86A}
+input:focus,textarea:focus,select:focus{outline:none;border-color:#C9A86A!important;box-shadow:0 0 0 3px rgba(201,168,106,0.15)}
+.toast{animation:toastIn 0.4s cubic-bezier(0.34,1.56,0.64,1), toastOut 0.3s ease 2.7s forwards}
+@keyframes toastIn{from{transform:translateY(20px) scale(0.95);opacity:0}to{transform:translateY(0) scale(1);opacity:1}}
+@keyframes toastOut{from{opacity:1}to{opacity:0;transform:translateY(-10px)}}
+.shimmer{position:relative;overflow:hidden}
+.shimmer::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.08),transparent);transform:translateX(-100%);animation:shimmer 2.5s infinite}
+@keyframes shimmer{100%{transform:translateX(100%)}}
+</style>
+</head>
+<body class="text-white antialiased">
+
+<!-- NAV -->
+<nav id="navbar" class="fixed top-0 w-full z-50 nav-glass">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-[72px]">
+      <div class="flex items-center gap-8">
+        <a href="#" class="flex items-center gap-3 group" id="logoClick">
+          <div class="w-[46px] h-[46px] rounded-xl bg-gradient-to-br from-[#C9A86A] to-[#8C7344] flex items-center justify-center relative shadow-lg group-hover:shadow-[0_0_20px_rgba(201,168,106,0.4)] transition">
+            <span class="font-playfair font-black text-[18px] text-[#070F26] tracking-tighter leading-none">MG</span>
+            <span class="absolute -top-1 -right-1 w-5 h-5 bg-white rounded-full flex items-center justify-center shadow">
+              <i class="fa-solid fa-arrow-trend-up text-[9px] text-[#0B1E3B]"></i>
+            </span>
+          </div>
+          <div class="hidden sm:block">
+            <div class="font-playfair font-extrabold text-[15px] tracking-[0.14em] leading-none text-gold-gradient">MASTER MARKETING</div>
+            <div class="flex items-center gap-2 mt-[2px]">
+              <span class="h-[1px] w-6 bg-gold/60"></span>
+              <span class="text-[11px] tracking-[0.35em] text-white/70 font-semibold">GROWTH</span>
+              <span class="h-[1px] w-6 bg-gold/60"></span>
+            </div>
+          </div>
+        </a>
+        <div class="hidden lg:flex items-center gap-1">
+          <a href="#hero" class="px-3 py-2 text-sm text-white/80 hover:text-gold transition">الرئيسية</a>
+          <a href="#services" class="px-3 py-2 text-sm text-white/80 hover:text-gold transition">خدماتنا</a>
+          <a href="#projects" class="px-3 py-2 text-sm text-white/80 hover:text-gold transition">مشاريعنا</a>
+          <a href="#articles" class="px-3 py-2 text-sm text-white/80 hover:text-gold transition">المقالات</a>
+          <a href="#about" class="px-3 py-2 text-sm text-white/80 hover:text-gold transition">من نحن</a>
+          <a href="#contact" class="px-3 py-2 text-sm text-white/80 hover:text-gold transition">تواصل</a>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/201011799052" target="_blank" class="hidden md:inline-flex w-10 h-10 rounded-full bg-[#25D366] items-center justify-center hover:scale-105 transition shadow-lg">
+          <i class="fa-brands fa-whatsapp text-white text-[20px]"></i>
+        </a>
+        <a href="https://wa.me/201011799052" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-5 py-[10px] rounded-full gold-gradient text-[#070F26] font-bold text-sm hover:shadow-[0_8px_24px_rgba(201,168,106,0.35)] hover:-translate-y-[1px] transition">
+          تواصل معنا الآن
+          <i class="fa-solid fa-arrow-left text-xs"></i>
+        </a>
+        <button id="mobileBtn" class="lg:hidden w-10 h-10 rounded-full border border-white/15 flex items-center justify-center">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden lg:hidden border-t border-white/10 bg-[#0B1E3B]">
+    <div class="px-4 py-4 flex flex-col gap-1">
+      <a href="#hero" class="py-3 px-3 rounded-xl hover:bg-white/5">الرئيسية</a>
+      <a href="#services" class="py-3 px-3 rounded-xl hover:bg-white/5">خدماتنا</a>
+      <a href="#projects" class="py-3 px-3 rounded-xl hover:bg-white/5">مشاريعنا</a>
+      <a href="#articles" class="py-3 px-3 rounded-xl hover:bg-white/5">المقالات</a>
+      <a href="#about" class="py-3 px-3 rounded-xl hover:bg-white/5">من نحن</a>
+      <a href="#contact" class="py-3 px-3 rounded-xl hover:bg-white/5">تواصل</a>
+      <a href="https://wa.me/201011799052" target="_blank" class="mt-2 flex items-center justify-center gap-2 py-3 rounded-full gold-gradient text-navy font-bold"><i class="fa-brands fa-whatsapp"></i> واتساب مباشر</a>
+    </div>
+  </div>
+</nav>
+
+<div id="publicSite">
+
+<!-- HERO -->
+<section id="hero" class="hero-bg relative pt-[88px] overflow-hidden">
+  <div class="absolute inset-0 grid-pattern opacity-40 pointer-events-none"></div>
+  <div class="absolute top-24 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-gold/5 rounded-full blur-[120px] pointer-events-none"></div>
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <div class="grid lg:grid-cols-[1.15fr_0.85fr] gap-10 lg:gap-8 items-center py-10 lg:py-16">
+      <div class="order-2 lg:order-1">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-gold/20 backdrop-blur mb-6">
+          <span class="w-2 h-2 rounded-full bg-[#25D366] animate-pulse"></span>
+          <span class="text-xs tracking-wide text-gold2 font-semibold">شريك النمو الرقمي الأول في مصر والخليج</span>
+          <span class="hidden sm:inline text-[11px] text-white/50 pr-2 mr-2 border-r border-white/10">مصر • السعودية • الإمارات</span>
+        </div>
+        <h1 id="heroTitle" class="font-black leading-[1.05] text-[32px] sm:text-[44px] lg:text-[52px]">
+          <span class="text-white">Master Growth (MG)</span><br>
+          <span class="text-white">أفضل شركة تسويق</span><br>
+          <span class="text-gold-gradient">إلكتروني وإدارة حملات</span>
+        </h1>
+        <p id="heroSub" class="mt-5 text-[18px] sm:text-[21px] font-bold leading-relaxed text-white">
+          الموضوع أبسط مما تتخيل.. <span class="text-gold">اختر الكيان الذي يملك الحلول المبتكرة،</span> المعرفة، والقدرة على التطوير اللحظي.
+        </p>
+        <p id="heroDesc" class="mt-4 text-[15px] leading-7 text-white/70 max-w-[580px]">
+          نحن في MG لسنا مجرد شركة تسويق رقمي؛ بل شريكك المتكامل للنمو المعتمد على تحليل البيانات ودقة التنفيذ بخبرة أفضل المتخصصين في مصر والخليج.
+        </p>
+        <div id="servicesLine" class="mt-7 flex flex-wrap gap-2">
+          <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm"><i class="fa-solid fa-bullhorn text-gold text-xs"></i> التسويق الرقمي الشامل</span>
+          <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm"><i class="fa-solid fa-chart-line text-gold text-xs"></i> إدارة الحملات الإعلانية</span>
+          <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm"><i class="fa-solid fa-rocket text-gold text-xs"></i> خطط النمو وتطوير العلامات</span>
+        </div>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="https://wa.me/201011799052" target="_blank" class="inline-flex items-center gap-3 px-7 py-4 rounded-full gold-gradient text-navy font-extrabold text-[15px] hover:shadow-[0_12px_32px_rgba(201,168,106,0.4)] hover:-translate-y-0.5 transition">
+            تواصل معنا الآن — انقل أعمالك للمستوى التالي
+            <span class="w-7 h-7 rounded-full bg-navy flex items-center justify-center"><i class="fa-solid fa-arrow-left text-gold text-xs"></i></span>
+          </a>
+          <a href="#projects" class="inline-flex items-center gap-2 px-7 py-4 rounded-full border border-white/15 bg-white/5 backdrop-blur text-white font-bold hover:bg-white/10 transition">
+            <i class="fa-regular fa-eye text-gold"></i> استعرض أعمالنا
+          </a>
+        </div>
+        <div class="mt-6 flex items-center gap-5 text-xs text-white/50">
+          <span class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-gold/70"></i> استشارة مجانية</span>
+          <span class="flex items-center gap-2"><i class="fa-solid fa-clock text-gold/70"></i> رد خلال ساعتين</span>
+          <span class="flex items-center gap-2"><i class="fa-solid fa-award text-gold/70"></i> ضمان النتائج</span>
+        </div>
+      </div>
+      <div class="order-1 lg:order-2 relative lg:pl-4">
+        <div class="relative mx-auto max-w-[440px] lg:max-w-none">
+          <div class="absolute -inset-6 bg-gradient-to-br from-gold/20 to-transparent rounded-[32px] blur-2xl"></div>
+          <div class="relative bg-gradient-to-b from-[#132A4C] to-[#0B1E3B] rounded-[28px] border border-gold/15 p-5 sm:p-6 shadow-2xl overflow-hidden">
+            <div class="flex items-center justify-between mb-5">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-red-400"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+                <span class="w-3 h-3 rounded-full bg-green-400"></span>
+              </div>
+              <span class="text-[11px] tracking-widest text-white/40 font-semibold">MG DASHBOARD • LIVE</span>
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            </div>
+            <div class="grid grid-cols-3 gap-3 mb-5">
+              <div class="rounded-2xl bg-white/[0.06] border border-white/10 p-3 text-center">
+                <div class="text-gold font-black text-xl">+340%</div><div class="text-[11px] text-white/60">نمو المبيعات</div>
+              </div>
+              <div class="rounded-2xl gold-gradient p-3 text-center">
+                <div class="text-navy font-black text-xl">98%</div><div class="text-[11px] text-navy/70">رضا العملاء</div>
+              </div>
+              <div class="rounded-2xl bg-white/[0.06] border border-white/10 p-3 text-center">
+                <div class="text-white font-black text-xl">+150</div><div class="text-[11px] text-white/60">مشروع ناجح</div>
+              </div>
+            </div>
+            <div class="rounded-2xl bg-[#070F26] border border-white/10 p-4">
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-sm font-bold">أداء الحملات</span><span class="text-xs px-2 py-1 rounded-full bg-emerald-500/15 text-emerald-400">+24.5% ↑</span>
+              </div>
+              <div class="flex items-end gap-[6px] h-[84px]">
+                <div class="flex-1 rounded-t-lg bg-white/10" style="height:32%"></div>
+                <div class="flex-1 rounded-t-lg bg-white/15" style="height:48%"></div>
+                <div class="flex-1 rounded-t-lg bg-white/10" style="height:38%"></div>
+                <div class="flex-1 rounded-t-lg bg-gold/40" style="height:65%"></div>
+                <div class="flex-1 rounded-t-lg bg-gold/60" style="height:78%"></div>
+                <div class="flex-1 rounded-t-lg gold-gradient" style="height:92%"></div>
+                <div class="flex-1 rounded-t-lg bg-white/10" style="height:54%"></div>
+              </div>
+              <div class="flex justify-between mt-2 text-[10px] text-white/30"><span>يناير</span><span>مارس</span><span>مايو</span><span>اليوم</span></div>
+            </div>
+            <div class="mt-4 flex items-center gap-3 text-xs text-white/60 bg-white/5 rounded-full px-3 py-2 border border-white/10">
+              <img src="https://i.pravatar.cc/100?img=12" class="w-7 h-7 rounded-full object-cover">
+              <span class="flex-1">حملة Black Horse حققت 4.2x ROAS هذا الأسبوع 🔥</span>
+              <span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
+            </div>
+          </div>
+          <div class="absolute -bottom-4 -left-4 bg-white rounded-2xl p-3 shadow-xl flex items-center gap-3 border border-black/5">
+            <div class="w-10 h-10 rounded-xl bg-[#25D366] flex items-center justify-center"><i class="fa-brands fa-whatsapp text-white"></i></div>
+            <div><div class="text-navy font-bold text-sm">+2.8M وصول</div><div class="text-xs text-black/50">آخر 30 يوم</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats" class="relative border-y border-gold/10 bg-[#0B1E3B]/50 backdrop-blur">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5" id="statsGrid">
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section id="clients" class="py-10 sm:py-12 bg-[#070F26] border-b border-white/5 overflow-hidden">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-wrap items-center justify-between gap-4 mb-7">
+      <div>
+        <div class="text-gold text-xs tracking-[0.2em] font-bold mb-1">SUCCESS PARTNERS</div>
+        <h3 class="text-xl sm:text-2xl font-extrabold">عملاؤنا الذين نعتز بهم</h3>
+      </div>
+      <div class="hidden sm:flex items-center gap-2 text-xs text-white/40"><span class="w-8 h-[1px] bg-gold/30"></span> أكثر من 80 علامة تجارية تثق بنا</div>
+    </div>
+  </div>
+  <div class="relative">
+    <div class="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-[#070F26] to-transparent z-10 pointer-events-none"></div>
+    <div class="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-[#070F26] to-transparent z-10 pointer-events-none"></div>
+    <div class="overflow-hidden">
+      <div class="carousel-track flex w-max gap-4 py-2" id="clientsTrack">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES / WHY MG -->
+<section id="services" class="py-14 sm:py-20 relative">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-10 lg:gap-14 items-start">
+      <div class="fade-up">
+        <div class="inline-flex items-center gap-2 text-gold text-xs font-bold tracking-[0.15em] mb-3"><span class="w-8 h-[1px] bg-gold"></span> لماذا MASTER GROWTH</div>
+        <h2 class="text-[28px] sm:text-[36px] font-black leading-tight">شريكك المتكامل للنمو<br><span class="text-gold">المعتمد على البيانات</span></h2>
+        <p class="mt-4 text-white/65 leading-7">نحن لا نقدّم خدمات تسويقية منفصلة، بل نبني منظومة نمو متكاملة تبدأ من تحليل السوق والمنافسين، مروراً بصياغة الرسالة وتجربة العميل، وصولاً إلى التنفيذ اليومي والقياس اللحظي.</p>
+        <div class="mt-8 grid sm:grid-cols-2 gap-4">
+          <div class="rounded-2xl bg-white/[0.04] border border-white/10 p-5">
+            <div class="w-10 h-10 rounded-xl gold-gradient flex items-center justify-center mb-3"><i class="fa-solid fa-magnifying-glass-chart text-navy"></i></div>
+            <h4 class="font-bold">تحليل & استراتيجية</h4><p class="text-sm text-white/60 mt-1 leading-6">دراسة عميقة للسوق والجمهور ورسم خارطة نمو قابلة للتنفيذ.</p>
+          </div>
+          <div class="rounded-2xl bg-white/[0.04] border border-white/10 p-5">
+            <div class="w-10 h-10 rounded-xl bg-white text-navy flex items-center justify-center mb-3"><i class="fa-solid fa-bullseye"></i></div>
+            <h4 class="font-bold">تنفيذ بدقة</h4><p class="text-sm text-white/60 mt-1 leading-6">إدارة حملات يومية بتحسين مستمر ومتابعة لحظية للأرقام.</p>
+          </div>
+          <div class="rounded-2xl bg-white/[0.04] border border-white/10 p-5">
+            <div class="w-10 h-10 rounded-xl bg-white text-navy flex items-center justify-center mb-3"><i class="fa-solid fa-layer-group"></i></div>
+            <h4 class="font-bold">علامة تجارية قوية</h4><p class="text-sm text-white/60 mt-1 leading-6">بناء هوية بصرية ورسالة تثبت في ذهن العميل.</p>
+          </div>
+          <div class="rounded-2xl bg-white/[0.04] border border-white/10 p-5">
+            <div class="w-10 h-10 rounded-xl gold-gradient flex items-center justify-center mb-3"><i class="fa-solid fa-chart-simple text-navy"></i></div>
+            <h4 class="font-bold">نمو قابل للقياس</h4><p class="text-sm text-white/60 mt-1 leading-6">تقارير شفافة، أرقام واضحة، وقرارات مبنية على بيانات.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fade-up space-y-4">
+        <div class="rounded-[24px] bg-gradient-to-br from-[#132A4C] to-[#0B1E3B] border border-gold/15 p-6 sm:p-7">
+          <h3 class="font-extrabold text-lg mb-4 flex items-center gap-2"><i class="fa-solid fa-sparkles text-gold"></i> خدماتنا الأساسية</h3>
+          <div id="servicesList" class="space-y-3"></div>
+          <a href="https://wa.me/201011799052" target="_blank" class="mt-6 w-full inline-flex justify-center items-center gap-2 py-3 rounded-full gold-gradient text-navy font-bold hover:shadow-lg transition">احجز استشارتك المجانية <i class="fa-solid fa-arrow-left text-xs"></i></a>
+        </div>
+        <div class="grid grid-cols-3 gap-3">
+          <div class="rounded-2xl bg-white text-navy p-4 text-center"><div class="font-black text-xl">24/7</div><div class="text-xs text-black/60">دعم ومتابعة</div></div>
+          <div class="rounded-2xl gold-gradient p-4 text-center"><div class="font-black text-xl text-navy">+12</div><div class="text-xs text-navy/70">سنة خبرة</div></div>
+          <div class="rounded-2xl bg-white/[0.06] border border-white/10 p-4 text-center"><div class="font-black text-xl">الخليج</div><div class="text-xs text-white/60">مصر & السعودية</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-14 sm:py-16 bg-[#0B1E3B]/40 border-y border-white/5">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
+      <div>
+        <div class="text-gold text-xs tracking-[0.18em] font-bold mb-2">PORTFOLIO • أعمال نفتخر بها</div>
+        <h2 class="text-[28px] sm:text-[36px] font-black">مشاريعنا</h2>
+        <p class="text-white/60 text-sm mt-1">نماذج من الحملات والعلامات التي صنعناها بفكر النمو.</p>
+      </div>
+      <div class="flex gap-2 overflow-auto pb-1" id="projectFilters">
+        <button data-filter="all" class="filter-btn active px-5 py-2 rounded-full text-sm font-bold bg-white text-navy">الكل</button>
+        <button data-filter="تسويق" class="filter-btn px-5 py-2 rounded-full text-sm font-bold bg-white/5 border border-white/10 hover:bg-white/10">تسويق رقمي</button>
+        <button data-filter="علامة" class="filter-btn px-5 py-2 rounded-full text-sm font-bold bg-white/5 border border-white/10 hover:bg-white/10">علامات تجارية</button>
+        <button data-filter="حملات" class="filter-btn px-5 py-2 rounded-full text-sm font-bold bg-white/5 border border-white/10 hover:bg-white/10">حملات</button>
+      </div>
+    </div>
+    <div id="projectsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6"></div>
+  </div>
+</section>
+
+<!-- ARTICLES -->
+<section id="articles" class="py-14 sm:py-16">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-end justify-between gap-4 mb-8">
+      <div>
+        <div class="text-gold text-xs tracking-[0.18em] font-bold mb-2">INSIGHTS • معرفة تصنع الفارق</div>
+        <h2 class="text-[28px] sm:text-[36px] font-black">المقالات</h2>
+      </div>
+      <a href="#" class="hidden sm:inline-flex items-center gap-2 text-sm text-gold hover:text-gold2 font-bold">عرض كل المقالات <i class="fa-solid fa-arrow-left text-xs"></i></a>
+    </div>
+    <div id="articlesGrid" class="grid md:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-14 sm:py-16 bg-[#0B1E3B]/30 border-y border-white/5">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="rounded-[28px] bg-gradient-to-br from-[#132A4C] via-[#0B1E3B] to-[#070F26] border border-gold/15 p-6 sm:p-10 lg:p-12 relative overflow-hidden">
+      <div class="absolute -top-20 -left-20 w-[400px] h-[400px] bg-gold/10 rounded-full blur-[80px]"></div>
+      <div class="grid lg:grid-cols-[1.2fr_0.8fr] gap-8 relative">
+        <div>
+          <div class="inline-flex items-center gap-2 text-gold text-xs font-bold tracking-[0.15em] mb-3"><span class="w-8 h-[1px] bg-gold"></span> من نحن</div>
+          <h3 class="text-[22px] sm:text-[28px] font-black leading-tight">لسنا مجرد وكالة.. نحن <span class="text-gold">محرك نموك</span> في مصر والخليج</h3>
+          <p class="mt-4 text-white/70 leading-7">في Master Growth نؤمن أن التسويق ليس إعلانات فقط، بل هو هندسة نمو. نجمع بين خبرة روّاد التسويق في مصر والسعودية، وأدوات التحليل المتقدمة، والتنفيذ السريع لنحول أهدافك إلى أرقام ملموسة. من مدينة نصر إلى الرياض ودبي، نبني قصص نجاح تتحدث عن نفسها.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <span class="px-4 py-2 rounded-full bg-white text-navy text-sm font-bold">بيانات • إبداع • نتائج</span>
+            <span class="px-4 py-2 rounded-full border border-white/15 text-sm">مصر • السعودية • الإمارات</span>
+          </div>
+        </div>
+        <div class="bg-white rounded-[20px] p-6 text-navy">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-xl bg-navy flex items-center justify-center"><i class="fa-solid fa-quote-right text-gold"></i></div>
+            <div class="text-sm font-bold">ماذا يقول عملاؤنا</div>
+            <div class="mr-auto flex text-gold text-xs"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          </div>
+          <p class="text-sm leading-6 text-black/70">“مع MG تضاعفت مبيعاتنا 3 مرات في 4 أشهر. فريق يفهم السوق ويتابع الأرقام لحظة بلحظة. أفضل استثمار قمنا به.”</p>
+          <div class="mt-4 flex items-center gap-3">
+            <img src="https://i.pravatar.cc/100?img=32" class="w-10 h-10 rounded-full">
+            <div><div class="font-bold text-sm">أحمد الشيخ</div><div class="text-xs text-black/50">شيخ العقار • القاهرة</div></div>
+            <span class="mr-auto text-emerald-600 text-xs font-bold bg-emerald-50 px-2 py-1 rounded-full">عميل موثّق ✓</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-14 sm:py-16">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-[0.95fr_1.05fr] gap-8">
+      <div>
+        <div class="text-gold text-xs tracking-[0.18em] font-bold mb-2">تواصل معنا</div>
+        <h2 class="text-[28px] sm:text-[36px] font-black leading-tight">جاهز تنقل أعمالك<br><span class="text-gold">للمستوى التالي؟</span></h2>
+        <p class="mt-3 text-white/60 leading-7">املأ النموذج أو تواصل مباشرة عبر واتساب. نرد خلال ساعتين بخطة نمو أولية مجانية.</p>
+        <div class="mt-7 space-y-3">
+          <div class="flex gap-3 p-4 rounded-2xl bg-white/[0.04] border border-white/10">
+            <div class="w-11 h-11 rounded-xl gold-gradient flex items-center justify-center shrink-0"><i class="fa-solid fa-location-dot text-navy"></i></div>
+            <div><div class="font-bold text-sm">العنوان</div><div id="contactAddress" class="text-sm text-white/70 mt-1">20 شارع سمير عبد الرؤوف – الحي السابع – مدينة نصر – القاهرة – مصر</div></div>
+          </div>
+          <div class="flex gap-3 p-4 rounded-2xl bg-white/[0.04] border border-white/10">
+            <div class="w-11 h-11 rounded-xl bg-[#25D366] flex items-center justify-center shrink-0"><i class="fa-brands fa-whatsapp text-white"></i></div>
+            <div class="flex-1"><div class="font-bold text-sm">واتساب مباشر</div><a href="https://wa.me/201011799052" target="_blank" class="text-sm text-gold font-bold hover:underline">+20 101 179 9052</a><div class="text-xs text-white/50">اضغط للتواصل الفوري</div></div>
+            <a href="https://wa.me/201011799052" target="_blank" class="self-center px-4 py-2 rounded-full bg-white text-navy text-xs font-bold">افتح واتساب</a>
+          </div>
+          <div class="flex gap-3 p-4 rounded-2xl bg-white/[0.04] border border-white/10">
+            <div class="w-11 h-11 rounded-xl bg-white flex items-center justify-center shrink-0"><i class="fa-solid fa-envelope text-navy"></i></div>
+            <div><div class="font-bold text-sm">البريد</div><div id="contactEmail" class="text-sm text-white/70">hello@mastergrowth.agency</div></div>
+          </div>
+        </div>
+        <div class="mt-6 flex gap-3">
+          <a href="#" class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-navy transition"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-navy transition"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-navy transition"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-navy transition"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/201011799052" target="_blank" class="w-10 h-10 rounded-full bg-[#25D366] flex items-center justify-center hover:scale-105 transition"><i class="fa-brands fa-whatsapp text-white"></i></a>
+        </div>
+      </div>
+      <form id="contactForm" class="rounded-[24px] bg-white p-6 sm:p-7 text-navy shadow-2xl">
+        <h3 class="font-black text-lg">أرسل لنا رسالة</h3><p class="text-sm text-black/50 mb-5">سنعود إليك خلال ساعتين بتحليل أولي مجاني</p>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <label class="block"><span class="text-xs font-bold text-black/70">الاسم الكامل *</span><input required type="text" placeholder="محمد أحمد" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+          <label class="block"><span class="text-xs font-bold text-black/70">رقم الواتساب *</span><input required type="tel" placeholder="+20 1xx xxx xxxx" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+        </div>
+        <label class="block mt-4"><span class="text-xs font-bold text-black/70">البريد الإلكتروني</span><input type="email" placeholder="you@company.com" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+        <label class="block mt-4"><span class="text-xs font-bold text-black/70">الخدمة المطلوبة</span>
+          <select class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm">
+            <option>التسويق الرقمي الشامل</option><option>إدارة الحملات الإعلانية</option><option>تطوير العلامة التجارية</option><option>استشارة نمو</option>
+          </select>
+        </label>
+        <label class="block mt-4"><span class="text-xs font-bold text-black/70">رسالتك</span><textarea rows="4" placeholder="احكِ لنا عن مشروعك وأهدافك..." class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm resize-none"></textarea></label>
+        <button type="submit" class="mt-5 w-full py-4 rounded-full gold-gradient font-extrabold text-navy hover:shadow-lg transition flex items-center justify-center gap-2">إرسال الطلب — نتواصل خلال ساعتين <i class="fa-solid fa-paper-plane text-xs"></i></button>
+        <div class="mt-3 flex items-center justify-center gap-2 text-xs text-black/40"><i class="fa-solid fa-lock"></i> بياناتك محمية 100% ولن تُشارك مع أي طرف</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-white/10 bg-[#050B1A] pt-10 pb-6">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row gap-8 justify-between">
+      <div class="max-w-[420px]">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-gold to-[#8C7344] flex items-center justify-center"><span class="font-playfair font-black text-navy">MG</span></div>
+          <div><div class="font-playfair font-extrabold tracking-[0.14em] text-gold-gradient text-sm">MASTER MARKETING</div><div class="text-[10px] tracking-[0.3em] text-white/50">GROWTH</div></div>
+        </div>
+        <p id="footerDesc" class="mt-4 text-sm leading-6 text-white/55">شريكك المتكامل للنمو المعتمد على تحليل البيانات ودقة التنفيذ. نحول أهدافك إلى أرقام، وأرقامك إلى نمو مستدام.</p>
+        <div class="mt-5 flex gap-2">
+          <a href="#" class="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-navy transition text-sm"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-navy transition text-sm"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-navy transition text-sm"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white hover:text-navy transition text-sm"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/201011799052" target="_blank" class="w-9 h-9 rounded-full bg-[#25D366] flex items-center justify-center"><i class="fa-brands fa-whatsapp text-white"></i></a>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 text-sm">
+        <div><div class="font-bold text-white mb-3">الشركة</div><div class="space-y-2 text-white/55"><a href="#about" class="block hover:text-gold">من نحن</a><a href="#services" class="block hover:text-gold">خدماتنا</a><a href="#projects" class="block hover:text-gold">أعمالنا</a><a href="#articles" class="block hover:text-gold">المقالات</a></div></div>
+        <div><div class="font-bold text-white mb-3">تواصل</div><div class="space-y-2 text-white/55"><a href="https://wa.me/201011799052" target="_blank" class="block hover:text-gold">واتساب: +20 1011799052</a><span class="block">مدينة نصر - القاهرة</span><span class="block">الرياض - السعودية</span></div></div>
+        <div class="col-span-2 sm:col-span-1"><div class="font-bold text-white mb-3">النشرة البريدية</div><div class="flex gap-2"><input placeholder="بريدك الإلكتروني" class="flex-1 px-4 py-2.5 rounded-full bg-white/5 border border-white/10 text-sm placeholder:text-white/30"><button class="px-5 py-2.5 rounded-full gold-gradient text-navy font-bold text-sm">اشتراك</button></div><div class="text-xs text-white/30 mt-2">نصائح نمو أسبوعية بدون إزعاج.</div></div>
+      </div>
+    </div>
+    <div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row gap-3 items-center justify-between text-xs text-white/35">
+      <span>© 2026 Master Growth (MG) — جميع الحقوق محفوظة. صُنع بفخر في مصر والخليج.</span>
+      <span class="flex items-center gap-2">Made with <i class="fa-solid fa-heart text-gold"></i> for growth — <a href="#admin" onclick="openAdmin(event)" class="hover:text-gold underline decoration-dotted">لوحة الإدارة</a></span>
+    </div>
+  </div>
+</footer>
+</div>
+
+<!-- FLOAT WHATSAPP -->
+<a href="https://wa.me/201011799052" target="_blank" class="fixed bottom-5 right-5 z-40 w-[58px] h-[58px] rounded-full bg-[#25D366] flex items-center justify-center shadow-[0_12px_32px_rgba(37,211,102,0.45)] hover:scale-105 transition group">
+  <i class="fa-brands fa-whatsapp text-white text-[28px]"></i>
+  <span class="absolute right-[66px] top-1/2 -translate-y-1/2 bg-white text-navy text-xs font-bold px-3 py-2 rounded-full shadow-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition pointer-events-none hidden sm:block">تواصل واتساب فوري</span>
+  <span class="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full border-2 border-white animate-pulse"></span>
+</a>
+
+<!-- ADMIN VIEW -->
+<div id="adminView" class="hidden fixed inset-0 z-[100] bg-[#F1F3F6] overflow-auto">
+  <!-- Login -->
+  <div id="adminLogin" class="min-h-screen flex items-center justify-center p-4">
+    <div class="w-full max-w-[440px]">
+      <div class="bg-[#070F26] rounded-[24px] p-8 shadow-2xl border border-gold/15 relative overflow-hidden">
+        <div class="absolute -top-20 -right-20 w-64 h-64 bg-gold/10 rounded-full blur-3xl"></div>
+        <div class="relative">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center font-playfair font-black text-navy">MG</div>
+            <div><div class="font-black text-white leading-none">Master Growth</div><div class="text-gold text-xs tracking-widest font-bold">ADMIN PORTAL</div></div>
+            <button onclick="closeAdmin()" class="mr-auto w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20"><i class="fa-solid fa-xmark text-white/70"></i></button>
+          </div>
+          <h2 class="text-xl font-black text-white">تسجيل دخول الإدارة</h2>
+          <p class="text-sm text-white/50 mt-1">الوصول مقصور على المسؤولين المصرح لهم فقط</p>
+          <form id="loginForm" class="mt-6 space-y-4">
+            <label class="block"><span class="text-xs font-bold text-white/70">اسم المستخدم</span><input id="loginUser" type="text" placeholder="admin" class="mt-1 w-full px-4 py-3 rounded-xl bg-white/5 border border-white/15 text-white placeholder:text-white/30 text-sm"></label>
+            <label class="block"><span class="text-xs font-bold text-white/70">كلمة المرور</span>
+              <div class="relative mt-1"><input id="loginPass" type="password" placeholder="••••••••" class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/15 text-white placeholder:text-white/30 text-sm pr-10"><button type="button" onclick="togglePass()" class="absolute left-3 top-1/2 -translate-y-1/2 text-white/40 hover:text-white"><i id="eyeIcon" class="fa-regular fa-eye"></i></button></div>
+            </label>
+            <div id="loginError" class="hidden text-sm bg-red-500/15 border border-red-500/30 text-red-300 px-3 py-2.5 rounded-xl flex gap-2 items-center"><i class="fa-solid fa-circle-exclamation"></i><span></span></div>
+            <button type="submit" class="w-full py-3.5 rounded-full gold-gradient text-navy font-black hover:shadow-lg transition">دخول لوحة التحكم <i class="fa-solid fa-arrow-left mr-2"></i></button>
+            <div class="text-center text-xs text-white/30">تجربة: admin / MG@2026Growth</div>
+          </form>
+          <div class="mt-6 p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs leading-5 text-amber-200/80"><i class="fa-solid fa-shield-halved ml-1"></i> في الإنتاج تُحفظ بيانات الدخول مُشفّرة على الخادم (hash + env variables) مع جلسات آمنة وصلاحيات محمية.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
+  <div id="adminDashboard" class="hidden min-h-screen">
+    <div class="sticky top-0 z-20 bg-[#070F26] border-b border-gold/15 px-4 sm:px-6 py-3 flex items-center gap-3">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl gold-gradient flex items-center justify-center font-black text-navy text-sm">MG</div>
+        <div class="hidden sm:block"><div class="font-black text-white text-sm leading-none">لوحة تحكم Master Growth</div><div class="text-[11px] text-gold tracking-widest">ADMIN DASHBOARD</div></div>
+      </div>
+      <div class="hidden md:flex items-center gap-2 mr-6">
+        <span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span><span class="text-xs text-white/60">متصل — جلسة آمنة</span>
+      </div>
+      <div class="mr-auto flex items-center gap-2">
+        <button onclick="previewSite()" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white text-navy text-xs font-bold"><i class="fa-regular fa-eye"></i> معاينة الموقع</button>
+        <a href="https://wa.me/201011799052" target="_blank" class="w-9 h-9 rounded-full bg-[#25D366] flex items-center justify-center"><i class="fa-brands fa-whatsapp text-white"></i></a>
+        <button onclick="logout()" class="px-4 py-2 rounded-full bg-white/10 border border-white/15 text-white text-xs font-bold hover:bg-white/15">تسجيل خروج <i class="fa-solid fa-right-from-bracket mr-1"></i></button>
+      </div>
+    </div>
+
+    <div class="max-w-[1400px] mx-auto p-4 sm:p-6 grid lg:grid-cols-[260px_1fr] gap-6">
+      <!-- Sidebar -->
+      <aside class="lg:sticky lg:top-[68px] h-fit bg-white rounded-[20px] border border-black/5 shadow-sm p-3">
+        <div class="space-y-1" id="dashTabs">
+          <button data-tab="general" class="dash-tab w-full text-right px-4 py-3 rounded-xl bg-navy text-white font-bold flex items-center gap-3"><i class="fa-solid fa-table-columns w-5"></i> نظرة عامة</button>
+          <button data-tab="hero" class="dash-tab w-full text-right px-4 py-3 rounded-xl hover:bg-black/5 flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-wand-magic-sparkles w-5 text-gold"></i> المحتوى الرئيسي</button>
+          <button data-tab="stats" class="dash-tab w-full text-right px-4 py-3 rounded-xl hover:bg-black/5 flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-chart-simple w-5 text-gold"></i> الإحصائيات</button>
+          <button data-tab="services" class="dash-tab w-full text-right px-4 py-3 rounded-xl hover:bg-black/5 flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-briefcase w-5 text-gold"></i> الخدمات</button>
+          <button data-tab="projects" class="dash-tab w-full text-right px-4 py-3 rounded-xl hover:bg-black/5 flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-layer-group w-5 text-gold"></i> المشاريع</button>
+          <button data-tab="articles" class="dash-tab w-full text-right px-4 py-3 rounded-xl hover:bg-black/5 flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-newspaper w-5 text-gold"></i> المقالات</button>
+          <button data-tab="clients" class="dash-tab w-full text-right px-4 py-3 rounded-xl hover:bg-black/5 flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-handshake w-5 text-gold"></i> العملاء</button>
+          <button data-tab="contact" class="dash-tab w-full text-right px-4 py-3 rounded-xl hover:bg-black/5 flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-address-book w-5 text-gold"></i> التواصل والفوتر</button>
+        </div>
+        <div class="mt-4 p-3 rounded-xl bg-[#FFF8EC] border border-gold/20">
+          <div class="text-xs font-bold text-navy flex items-center gap-2"><i class="fa-solid fa-database text-gold"></i> التخزين المستمر</div>
+          <div class="text-[11px] leading-5 text-black/60 mt-1">جميع التعديلات تُحفظ في قاعدة البيانات (محاكاة persistent عبر localStorage) وتظهر فوراً على الموقع العام بعد الحفظ.</div>
+        </div>
+      </aside>
+
+      <!-- Content -->
+      <div class="space-y-6">
+        <!-- General -->
+        <div data-panel="general" class="dash-panel">
+          <div class="grid sm:grid-cols-3 gap-4">
+            <div class="bg-white rounded-2xl p-5 border border-black/5"><div class="text-xs text-black/50">المشاريع</div><div id="kpiProjects" class="text-2xl font-black text-navy mt-1">6</div><div class="text-xs text-emerald-600 mt-1">+2 هذا الشهر</div></div>
+            <div class="bg-white rounded-2xl p-5 border border-black/5"><div class="text-xs text-black/50">المقالات</div><div id="kpiArticles" class="text-2xl font-black text-navy mt-1">4</div><div class="text-xs text-emerald-600 mt-1">محدّثة</div></div>
+            <div class="rounded-2xl p-5 gold-gradient"><div class="text-xs text-navy/60">رضا العملاء</div><div class="text-2xl font-black text-navy mt-1">98%</div><div class="text-xs text-navy/70 mt-1">ممتاز</div></div>
+          </div>
+          <div class="mt-6 bg-white rounded-[20px] border border-black/5 p-6">
+            <h3 class="font-black text-navy flex items-center gap-2"><i class="fa-solid fa-bolt text-gold"></i> إجراءات سريعة</h3>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-4">
+              <button onclick="switchTab('projects'); openProjectModal()" class="p-4 rounded-2xl bg-[#F8F9FA] border border-black/5 text-right hover:border-gold/30 transition"><div class="w-9 h-9 rounded-xl bg-navy flex items-center justify-center mb-2"><i class="fa-solid fa-plus text-gold"></i></div><div class="font-bold text-sm text-navy">إضافة مشروع</div><div class="text-xs text-black/50">مشروع جديد للبورتفوليو</div></button>
+              <button onclick="switchTab('articles'); openArticleModal()" class="p-4 rounded-2xl bg-[#F8F9FA] border border-black/5 text-right hover:border-gold/30 transition"><div class="w-9 h-9 rounded-xl gold-gradient flex items-center justify-center mb-2"><i class="fa-solid fa-pen text-navy"></i></div><div class="font-bold text-sm text-navy">إضافة مقال</div><div class="text-xs text-black/50">مقال تسويقي جديد</div></button>
+              <button onclick="switchTab('hero')" class="p-4 rounded-2xl bg-[#F8F9FA] border border-black/5 text-right hover:border-gold/30 transition"><div class="w-9 h-9 rounded-xl bg-white border flex items-center justify-center mb-2"><i class="fa-solid fa-heading text-navy"></i></div><div class="font-bold text-sm text-navy">تعديل العناوين</div><div class="text-xs text-black/50">Hero والوصف</div></button>
+              <button onclick="switchTab('contact')" class="p-4 rounded-2xl bg-[#F8F9FA] border border-black/5 text-right hover:border-gold/30 transition"><div class="w-9 h-9 rounded-xl bg-white border flex items-center justify-center mb-2"><i class="fa-solid fa-phone text-navy"></i></div><div class="font-bold text-sm text-navy">تحديث التواصل</div><div class="text-xs text-black/50">عنوان واجتماعي</div></button>
+            </div>
+            <div class="mt-6 flex flex-wrap gap-2">
+              <a href="https://wa.me/201011799052" target="_blank" class="px-5 py-2.5 rounded-full bg-[#25D366] text-white text-sm font-bold"><i class="fa-brands fa-whatsapp ml-1"></i> اختبار واتساب</a>
+              <button onclick="clearAllData()" class="px-5 py-2.5 rounded-full bg-white border border-black/10 text-sm font-bold">إعادة تعيين البيانات</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero -->
+        <div data-panel="hero" class="dash-panel hidden bg-white rounded-[20px] border border-black/5 p-6">
+          <h3 class="font-black text-navy text-lg">تحرير المحتوى الرئيسي</h3><p class="text-sm text-black/50">عدّل العناوين والنصوص — ثنائي اللغة (عربي/إنجليزي)</p>
+          <div class="grid gap-4 mt-5">
+            <label class="block"><span class="text-xs font-bold">العنوان الرئيسي (Hero Title)</span><textarea id="editHeroTitle" rows="2" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></textarea></label>
+            <label class="block"><span class="text-xs font-bold">العنوان الفرعي</span><textarea id="editHeroSub" rows="2" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></textarea></label>
+            <label class="block"><span class="text-xs font-bold">الفقرة التعريفية</span><textarea id="editHeroDesc" rows="3" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></textarea></label>
+            <label class="block"><span class="text-xs font-bold">نص زر الحث على الإجراء</span><input id="editCta" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+          </div>
+          <button onclick="saveHero()" class="mt-5 px-7 py-3 rounded-full gold-gradient text-navy font-black">حفظ التغييرات</button>
+        </div>
+
+        <!-- Stats -->
+        <div data-panel="stats" class="dash-panel hidden bg-white rounded-[20px] border border-black/5 p-6">
+          <h3 class="font-black text-navy text-lg">الإحصائيات المتحركة</h3><p class="text-sm text-black/50">الأرقام التي تظهر في قسم العدّ التصاعدي</p>
+          <div id="statsEditors" class="grid sm:grid-cols-2 gap-4 mt-5"></div>
+          <button onclick="saveStats()" class="mt-5 px-7 py-3 rounded-full gold-gradient text-navy font-black">حفظ الإحصائيات</button>
+        </div>
+
+        <!-- Services -->
+        <div data-panel="services" class="dash-panel hidden bg-white rounded-[20px] border border-black/5 p-6">
+          <div class="flex items-center justify-between"><h3 class="font-black text-navy text-lg">الخدمات</h3><button onclick="addService()" class="px-4 py-2 rounded-full bg-navy text-white text-xs font-bold">+ إضافة خدمة</button></div>
+          <div id="servicesEditors" class="space-y-3 mt-5"></div>
+          <button onclick="saveServices()" class="mt-5 px-7 py-3 rounded-full gold-gradient text-navy font-black">حفظ الخدمات</button>
+        </div>
+
+        <!-- Projects -->
+        <div data-panel="projects" class="dash-panel hidden">
+          <div class="bg-white rounded-[20px] border border-black/5 p-6">
+            <div class="flex items-center justify-between gap-3"><h3 class="font-black text-navy text-lg">إدارة المشاريع</h3><button onclick="openProjectModal()" class="px-5 py-2.5 rounded-full gold-gradient text-navy font-bold text-sm">+ مشروع جديد</button></div>
+            <div class="mt-5 overflow-auto">
+              <table class="w-full text-sm">
+                <thead class="text-xs text-black/40"><tr><th class="text-right py-2 px-2">المشروع</th><th class="text-right py-2">التصنيف</th><th class="text-right py-2">إجراءات</th></tr></thead>
+                <tbody id="projectsTable" class="divide-y divide-black/5"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Articles -->
+        <div data-panel="articles" class="dash-panel hidden">
+          <div class="bg-white rounded-[20px] border border-black/5 p-6">
+            <div class="flex items-center justify-between"><h3 class="font-black text-navy text-lg">إدارة المقالات</h3><button onclick="openArticleModal()" class="px-5 py-2.5 rounded-full gold-gradient text-navy font-bold text-sm">+ مقال جديد</button></div>
+            <div id="articlesTable" class="mt-5 grid sm:grid-cols-2 gap-4"></div>
+          </div>
+        </div>
+
+        <!-- Clients -->
+        <div data-panel="clients" class="dash-panel hidden bg-white rounded-[20px] border border-black/5 p-6">
+          <h3 class="font-black text-navy text-lg">العملاء وشركاء النجاح</h3>
+          <div id="clientsEditors" class="grid sm:grid-cols-2 gap-3 mt-5"></div>
+          <div class="flex gap-3 mt-5"><button onclick="addClient()" class="px-5 py-2.5 rounded-full bg-white border border-black/10 font-bold text-sm">+ إضافة عميل</button><button onclick="saveClients()" class="px-7 py-2.5 rounded-full gold-gradient text-navy font-black text-sm">حفظ العملاء</button></div>
+        </div>
+
+        <!-- Contact -->
+        <div data-panel="contact" class="dash-panel hidden bg-white rounded-[20px] border border-black/5 p-6">
+          <h3 class="font-black text-navy text-lg">معلومات التواصل والفوتر</h3>
+          <div class="grid gap-4 mt-5">
+            <label class="block"><span class="text-xs font-bold">العنوان</span><input id="editAddress" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+            <label class="block"><span class="text-xs font-bold">رقم واتساب</span><input id="editPhone" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+            <label class="block"><span class="text-xs font-bold">البريد الإلكتروني</span><input id="editEmail" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+            <label class="block"><span class="text-xs font-bold">نص الفوتر</span><textarea id="editFooter" rows="2" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></textarea></label>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <label class="block"><span class="text-xs font-bold">فيسبوك</span><input id="editFb" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+              <label class="block"><span class="text-xs font-bold">انستغرام</span><input id="editIg" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+            </div>
+          </div>
+          <button onclick="saveContact()" class="mt-5 px-7 py-3 rounded-full gold-gradient text-navy font-black">حفظ معلومات التواصل</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODALS -->
+<div id="projectModal" class="hidden fixed inset-0 z-[110] bg-black/50 backdrop-blur-sm p-4 flex items-center justify-center">
+  <div class="bg-white rounded-[20px] w-full max-w-[560px] p-6 max-h-[90vh] overflow-auto">
+    <div class="flex items-center justify-between mb-4"><h3 id="projectModalTitle" class="font-black text-navy">مشروع جديد</h3><button onclick="closeProjectModal()" class="w-9 h-9 rounded-full bg-black/5 flex items-center justify-center"><i class="fa-solid fa-xmark"></i></button></div>
+    <input type="hidden" id="projId">
+    <div class="grid gap-3">
+      <label class="block"><span class="text-xs font-bold">عنوان المشروع</span><input id="projTitle" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+      <label class="block"><span class="text-xs font-bold">التصنيف</span><select id="projCat" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"><option>تسويق رقمي</option><option>علامة تجارية</option><option>حملات</option></select></label>
+      <label class="block"><span class="text-xs font-bold">الوصف</span><textarea id="projDesc" rows="3" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></textarea></label>
+      <label class="block"><span class="text-xs font-bold">رابط الصورة</span><input id="projImg" placeholder="https://..." class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+      <label class="block"><span class="text-xs font-bold">النتيجة (مثل: +320% نمو)</span><input id="projResult" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+    </div>
+    <button onclick="saveProject()" class="mt-5 w-full py-3 rounded-full gold-gradient text-navy font-black">حفظ المشروع</button>
+  </div>
+</div>
+
+<div id="articleModal" class="hidden fixed inset-0 z-[110] bg-black/50 backdrop-blur-sm p-4 flex items-center justify-center">
+  <div class="bg-white rounded-[20px] w-full max-w-[560px] p-6 max-h-[90vh] overflow-auto">
+    <div class="flex items-center justify-between mb-4"><h3 id="articleModalTitle" class="font-black text-navy">مقال جديد</h3><button onclick="closeArticleModal()" class="w-9 h-9 rounded-full bg-black/5 flex items-center justify-center"><i class="fa-solid fa-xmark"></i></button></div>
+    <input type="hidden" id="artId">
+    <div class="grid gap-3">
+      <label class="block"><span class="text-xs font-bold">عنوان المقال</span><input id="artTitle" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+      <label class="block"><span class="text-xs font-bold">التصنيف</span><input id="artCat" placeholder="نمو / تسويق / استراتيجية" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+      <label class="block"><span class="text-xs font-bold">الملخص</span><textarea id="artExcerpt" rows="3" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></textarea></label>
+      <label class="block"><span class="text-xs font-bold">رابط الصورة</span><input id="artImg" placeholder="https://..." class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+      <label class="block"><span class="text-xs font-bold">وقت القراءة</span><input id="artTime" placeholder="5 دقائق" class="mt-1 w-full px-4 py-3 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"></label>
+    </div>
+    <button onclick="saveArticle()" class="mt-5 w-full py-3 rounded-full gold-gradient text-navy font-black">حفظ المقال</button>
+  </div>
+</div>
+
+<div id="toastWrap" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-[120] flex flex-col gap-2 items-center pointer-events-none"></div>
+
+<script>
+const WA_URL='https://wa.me/201011799052';
+document.querySelectorAll('a[href*="wa.me"]').forEach(a=>a.href=WA_URL);
+
+/* Storage */
+const LS_KEY='mg_db_v2';
+const SESSION_KEY='mg_admin_session';
+const defaults={
+  hero:{title:'Master Growth (MG) أفضل شركة تسويق إلكتروني وإدارة حملات',sub:'الموضوع أبسط مما تتخيل.. اختر الكيان الذي يملك الحلول المبتكرة، المعرفة، والقدرة على التطوير اللحظي.',desc:'نحن في MG لسنا مجرد شركة تسويق رقمي؛ بل شريكك المتكامل للنمو المعتمد على تحليل البيانات ودقة التنفيذ بخبرة أفضل المتخصصين في مصر والخليج.',cta:'تواصل معنا الآن — انقل أعمالك للمستوى التالي'},
+  stats:[
+    {value:150,label:'مشروع ناجح',suffix:'+',icon:'fa-diagram-project'},
+    {value:80,label:'عميل سعيد',suffix:'+',icon:'fa-face-smile'},
+    {value:12,label:'سنة خبرة مجمعة',suffix:'+',icon:'fa-award'},
+    {value:98,label:'معدل رضا العملاء',suffix:'%',icon:'fa-star'}
+  ],
+  services:[
+    {title:'التسويق الرقمي الشامل',desc:'إدارة كاملة لمنصاتك ورسائلك ومحتواك بمنهجية نمو.',icon:'fa-bullhorn'},
+    {title:'إدارة الحملات الإعلانية',desc:'حملات مدفوعة مُحسّنة يومياً لتحقيق أعلى عائد.',icon:'fa-chart-line'},
+    {title:'خطط النمو وتطوير العلامات',desc:'استراتيجيات توسع وهوية تبني ولاء العملاء.',icon:'fa-rocket'},
+    {title:'تحليل البيانات والتقارير',desc:'لوحات متابعة شفافة وقرارات مبنية على أرقام.',icon:'fa-magnifying-glass-chart'}
+  ],
+  projects:[
+    {id:1,title:'Yo Marketing Agency — إعادة إطلاق العلامة',cat:'علامة تجارية',desc:'هوية جديدة واستراتيجية محتوى رفعت التفاعل 210% خلال 60 يوم.',img:'https://images.unsplash.com/photo-1558655146-d09347e92766?w=700&q=80',result:'+210% تفاعل'},
+    {id:2,title:'Egypt Time Travel — حملة حجوزات',cat:'حملات',desc:'حملة متعددة القنوات حققت 4.1 ROAS وخفضت تكلفة الحجز 38%.',img:'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=700&q=80',result:'4.1x ROAS'},
+    {id:3,title:'Black Horse Courses — نمو المبيعات',cat:'تسويق رقمي',desc:'نظام تسويق تعليمي متكامل ضاعف التسجيلات 3 مرات.',img:'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=700&q=80',result:'+320% تسجيل'},
+    {id:4,title:'AMT — توليد عملاء B2B',cat:'تسويق رقمي',desc:'مسار عملاء مؤتمت و LinkedIn Ads بجودة ليد 82%.',img:'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80',result:'82% جودة ليد'},
+    {id:5,title:'الإيطالية للمصاعد — حضور رقمي',cat:'علامة تجارية',desc:'موقع وتوثيق محتوى هندسي رفع الطلبات 165%.',img:'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=700&q=80',result:'+165% طلبات'},
+    {id:6,title:'شيخ العقار — حملة عقارية',cat:'حملات',desc:'حملة عقارية ذكية حققت 28 صفقة في 45 يوم.',img:'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=700&q=80',result:'28 صفقة'}
+  ],
+  articles:[
+    {id:1,title:'التسويق المبني على البيانات: كيف تتخذ قرارات أذكى؟',cat:'استراتيجية',excerpt:'تحويل الأرقام إلى قرارات نمو يومية بدون تخمين.',img:'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80',time:'6 دقائق'},
+    {id:2,title:'5 أخطاء تقتل حملاتك الإعلانية (وكيف تصلحها)',cat:'حملات',excerpt:'أسباب هدر الميزانية وطريقة خفض تكلفة التحويل 40%.',img:'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700&q=80',time:'5 دقائق'},
+    {id:3,title:'بناء علامة تجارية لا تُنسى في سوق مزدحم',cat:'علامة تجارية',excerpt:'من الرسالة إلى التجربة — هوية تثبت في ذهن العميل.',img:'https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80',time:'7 دقائق'},
+    {id:4,title:'خارطة نمو 90 يوم للشركات المتوسطة',cat:'نمو',excerpt:'خطوات عملية للانتقال من الاستقرار إلى التوسع.',img:'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80',time:'8 دقائق'}
+  ],
+  clients:['Yo Marketing Agency','Egypt Time Travel','Black Horse Courses','AMT','الإيطالية للمصاعد','شيخ العقار','Active for Web','Taqi Violet'],
+  contact:{address:'20 شارع سمير عبد الرؤوف – الحي السابع – مدينة نصر – القاهرة – مصر',phone:'+20 101 179 9052',email:'hello@mastergrowth.agency',footer:'شريكك المتكامل للنمو المعتمد على تحليل البيانات ودقة التنفيذ. نحول أهدافك إلى أرقام، وأرقامك إلى نمو مستدام.',fb:'#',ig:'#'}
+};
+function loadDB(){try{let d=localStorage.getItem(LS_KEY); if(d) return {...defaults,...JSON.parse(d), stats:JSON.parse(d).stats||defaults.stats, services:JSON.parse(d).services||defaults.services} }catch(e){} return JSON.parse(JSON.stringify(defaults));}
+function saveDB(){localStorage.setItem(LS_KEY, JSON.stringify(db));}
+let db=loadDB();
+
+/* Render */
+function renderStats(){
+  const grid=document.getElementById('statsGrid');
+  grid.innerHTML=db.stats.map((s,i)=>`
+    <div class="stat-card rounded-[20px] bg-white/[0.04] border border-white/10 p-5 sm:p-6 text-center backdrop-blur">
+      <div class="w-10 h-10 mx-auto rounded-xl gold-gradient flex items-center justify-center mb-3"><i class="fa-solid ${s.icon} text-navy text-sm"></i></div>
+      <div class="font-black text-[28px] sm:text-[32px] leading-none text-white"><span class="counter" data-target="${s.value}" data-suffix="${s.suffix}">0</span><span class="text-gold">${s.suffix}</span></div>
+      <div class="text-sm text-white/60 mt-1 font-semibold">${s.label}</div>
+    </div>
+  `).join('');
+}
+function renderClients(){
+  const track=document.getElementById('clientsTrack');
+  const items=db.clients.map(c=>`
+    <div class="shrink-0 w-[190px] h-[86px] rounded-2xl bg-white border border-black/5 flex items-center justify-center px-4 shadow-sm">
+      <span class="font-black text-navy text-sm text-center leading-tight">${c}</span>
+    </div>
+  `).join('');
+  track.innerHTML=items+items;
+}
+function renderServices(){
+  document.getElementById('servicesList').innerHTML=db.services.map(s=>`
+    <div class="flex gap-3 p-3 rounded-2xl bg-white/[0.04] border border-white/10 hover:border-gold/20 transition">
+      <div class="w-10 h-10 rounded-xl bg-white flex items-center justify-center shrink-0"><i class="fa-solid ${s.icon} text-navy text-sm"></i></div>
+      <div><div class="font-bold text-sm">${s.title}</div><div class="text-xs text-white/60 mt-1 leading-5">${s.desc}</div></div>
+    </div>
+  `).join('');
+}
+function renderProjects(filter='all'){
+  const grid=document.getElementById('projectsGrid');
+  let list=db.projects;
+  if(filter!=='all') list=list.filter(p=>p.cat.includes(filter));
+  grid.innerHTML=list.map(p=>`
+    <div class="project-card rounded-[20px] overflow-hidden bg-[#0F2340] border border-white/10 group">
+      <div class="relative h-[190px] overflow-hidden bg-[#0B1E3B]">
+        <img src="${p.img}" class="project-img w-full h-full object-cover transition duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-[#070F26] via-transparent to-transparent opacity-70"></div>
+        <span class="absolute top-3 right-3 text-[11px] font-bold px-3 py-1 rounded-full bg-white text-navy">${p.cat}</span>
+        <span class="absolute bottom-3 left-3 text-xs font-black px-3 py-1 rounded-full gold-gradient text-navy">${p.result}</span>
+      </div>
+      <div class="p-5">
+        <h4 class="font-extrabold leading-6 line-clamp-2">${p.title}</h4>
+        <p class="text-sm text-white/60 leading-6 mt-2 line-clamp-2">${p.desc}</p>
+        <a href="${WA_URL}" target="_blank" class="mt-4 inline-flex items-center gap-2 text-sm font-bold text-gold hover:text-gold2">اطلب مشروع مشابه <i class="fa-solid fa-arrow-left text-xs"></i></a>
+      </div>
+    </div>
+  `).join('') || `<div class="col-span-full text-center py-10 text-white/50">لا توجد مشاريع في هذا التصنيف</div>`;
+}
+function renderArticles(){
+  document.getElementById('articlesGrid').innerHTML=db.articles.map(a=>`
+    <article class="article-card rounded-[20px] overflow-hidden bg-white border border-black/5 group">
+      <div class="h-[160px] overflow-hidden relative">
+        <img src="${a.img}" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <span class="absolute top-3 right-3 text-[11px] font-bold px-3 py-1 rounded-full bg-navy text-white">${a.cat}</span>
+      </div>
+      <div class="p-5">
+        <div class="flex items-center gap-2 text-[11px] text-black/40 mb-2"><i class="fa-regular fa-clock"></i> ${a.time} • ${a.cat}</div>
+        <h4 class="font-black text-navy leading-6 line-clamp-2">${a.title}</h4>
+        <p class="text-sm text-black/55 leading-6 mt-2 line-clamp-2">${a.excerpt}</p>
+        <a href="#" class="mt-4 inline-flex items-center gap-2 text-sm font-bold text-navy hover:text-gold">اقرأ المقال <i class="fa-solid fa-arrow-left text-xs"></i></a>
+      </div>
+    </article>
+  `).join('');
+}
+function renderHero(){
+  document.getElementById('heroTitle').innerHTML=db.hero.title.replace('Master Growth (MG)','<span class="text-white">Master Growth (MG)</span>').replace('أفضل شركة تسويق','أفضل شركة تسويق').replace('إلكتروني وإدارة حملات','<span class="text-gold-gradient">إلكتروني وإدارة حملات</span>');
+  // simpler: keep original formatting via text
+  document.getElementById('heroTitle').textContent=db.hero.title;
+  // restore gradient visually via innerHTML if contains keyword
+  if(db.hero.title.includes('إلكتروني')){
+    document.getElementById('heroTitle').innerHTML=db.hero.title.replace('إلكتروني وإدارة حملات','<span class="text-gold-gradient">إلكتروني وإدارة حملات</span>')
+  }
+  document.getElementById('heroSub').textContent=db.hero.sub;
+  document.getElementById('heroDesc').textContent=db.hero.desc;
+}
+function renderContact(){
+  document.getElementById('contactAddress').textContent=db.contact.address;
+  document.getElementById('contactEmail').textContent=db.contact.email;
+  document.getElementById('footerDesc').textContent=db.contact.footer;
+}
+
+function fullRender(){
+  renderHero();renderStats();renderClients();renderServices();renderProjects();renderArticles();renderContact();
+  initCounters(); initFade();
+}
+fullRender();
+
+/* Counters */
+function initCounters(){
+  const els=document.querySelectorAll('.counter');
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        const el=e.target; const target=parseInt(el.dataset.target); const suffix=el.dataset.suffix; let cur=0; const dur=1400; const step=target/(dur/16);
+        function tick(){cur+=step; if(cur>=target){el.textContent=target;} else {el.textContent=Math.floor(cur); requestAnimationFrame(tick);} }
+        tick(); obs.unobserve(el);
+      }
+    });
+  },{threshold:0.5});
+  els.forEach(el=>obs.observe(el));
+}
+function initFade(){
+  const els=document.querySelectorAll('.fade-up');
+  const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:0.15});
+  els.forEach(e=>o.observe(e));
+}
+
+/* Filters */
+document.querySelectorAll('.filter-btn').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-btn').forEach(x=>{x.classList.remove('active','bg-white','text-navy');x.classList.add('bg-white/5','border','border-white/10')});
+    b.classList.add('active','bg-white','text-navy'); b.classList.remove('bg-white/5','border','border-white/10');
+    renderProjects(b.dataset.filter);
+  });
+});
+
+/* Mobile */
+document.getElementById('mobileBtn').onclick=()=>document.getElementById('mobileMenu').classList.toggle('hidden');
+
+/* Contact form */
+document.getElementById('contactForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  toast('تم إرسال طلبك بنجاح! سنتواصل عبر واتساب خلال ساعتين ✅','success');
+  e.target.reset();
+});
+
+/* Toast */
+function toast(msg,type='success'){
+  const w=document.getElementById('toastWrap');
+  const el=document.createElement('div');
+  el.className=`toast pointer-events-auto px-5 py-3 rounded-full text-sm font-bold shadow-xl border flex items-center gap-2 ${type==='success'?'bg-navy text-white border-gold/30':'bg-red-600 text-white border-red-400'}`;
+  el.innerHTML=`<i class="fa-solid ${type==='success'?'fa-check':'fa-triangle-exclamation'}"></i> ${msg}`;
+  w.appendChild(el);
+  setTimeout(()=>el.remove(),3000);
+}
+
+/* Admin routing */
+function isAdminRoute(){return location.hash==='#admin' || location.search.includes('admin') || location.pathname.endsWith('/admin');}
+function openAdmin(e){if(e) e.preventDefault(); location.hash='admin'; checkAdmin();}
+function closeAdmin(){location.hash=''; document.getElementById('adminView').classList.add('hidden'); document.body.style.overflow='';}
+function checkAdmin(){
+  if(isAdminRoute()){
+    document.getElementById('adminView').classList.remove('hidden');
+    document.body.style.overflow='hidden';
+    const sess=localStorage.getItem(SESSION_KEY);
+    if(sess==='active'){showDashboard();} else {showLogin();}
+    window.scrollTo(0,0);
+  } else {
+    document.getElementById('adminView').classList.add('hidden');
+    document.body.style.overflow='';
+  }
+}
+function showLogin(){document.getElementById('adminLogin').classList.remove('hidden'); document.getElementById('adminDashboard').classList.add('hidden');}
+function showDashboard(){document.getElementById('adminLogin').classList.add('hidden'); document.getElementById('adminDashboard').classList.remove('hidden'); refreshDashboard();}
+window.addEventListener('hashchange',checkAdmin);
+window.addEventListener('load',checkAdmin);
+// logo easter
+let clicks=0; document.getElementById('logoClick').addEventListener('click',e=>{clicks++; if(clicks>=5){clicks=0; openAdmin(e);}});
+
+/* Login */
+function togglePass(){
+  const i=document.getElementById('loginPass');
+  const eye=document.getElementById('eyeIcon');
+  if(i.type==='password'){i.type='text'; eye.className='fa-regular fa-eye-slash';} else {i.type='password'; eye.className='fa-regular fa-eye';}
+}
+document.getElementById('loginForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const u=document.getElementById('loginUser').value.trim();
+  const p=document.getElementById('loginPass').value;
+  const err=document.getElementById('loginError');
+  // secure check: in production hashed + env; here functional demo
+  if(u==='admin' && p==='MG@2026Growth'){
+    localStorage.setItem(SESSION_KEY,'active');
+    toast('مرحباً بك — تم تسجيل الدخول بنجاح ✅','success');
+    showDashboard();
+  } else {
+    err.classList.remove('hidden');
+    err.querySelector('span').textContent='بيانات الدخول غير صحيحة. تأكد من اسم المستخدم وكلمة المرور.';
+  }
+});
+function logout(){localStorage.removeItem(SESSION_KEY); showLogin(); toast('تم تسجيل الخروج','success');}
+function previewSite(){closeAdmin(); toast('تم تحديث الموقع — التغييرات ظاهرة الآن ✅','success'); fullRender();}
+
+/* Dashboard tabs */
+function switchTab(name){
+  document.querySelectorAll('.dash-tab').forEach(b=>{
+    if(b.dataset.tab===name){b.classList.add('bg-navy','text-white');b.classList.remove('hover:bg-black/5');}
+    else {b.classList.remove('bg-navy','text-white');b.classList.add('hover:bg-black/5');}
+  });
+  document.querySelectorAll('.dash-panel').forEach(p=>p.classList.toggle('hidden', p.dataset.panel!==name));
+}
+document.querySelectorAll('.dash-tab').forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.tab)));
+
+function refreshDashboard(){
+  // hero
+  document.getElementById('editHeroTitle').value=db.hero.title;
+  document.getElementById('editHeroSub').value=db.hero.sub;
+  document.getElementById('editHeroDesc').value=db.hero.desc;
+  document.getElementById('editCta').value=db.hero.cta;
+  // stats
+  document.getElementById('statsEditors').innerHTML=db.stats.map((s,i)=>`
+    <label class="block bg-[#F8F9FA] p-4 rounded-xl border border-black/5">
+      <span class="text-xs font-bold">إحصائية ${i+1}</span>
+      <input data-si="${i}" data-field="value" type="number" value="${s.value}" class="mt-2 w-full px-3 py-2 rounded-lg border border-black/10 text-sm">
+      <input data-si="${i}" data-field="label" value="${s.label}" class="mt-2 w-full px-3 py-2 rounded-lg border border-black/10 text-sm">
+      <div class="flex gap-2 mt-2"><input data-si="${i}" data-field="suffix" value="${s.suffix}" class="flex-1 px-3 py-2 rounded-lg border border-black/10 text-sm" placeholder="suffix"><input data-si="${i}" data-field="icon" value="${s.icon}" class="flex-1 px-3 py-2 rounded-lg border border-black/10 text-sm" placeholder="icon"></div>
+    </label>
+  `).join('');
+  // services
+  document.getElementById('servicesEditors').innerHTML=db.services.map((s,i)=>`
+    <div class="p-4 rounded-xl bg-[#F8F9FA] border border-black/5 flex gap-3">
+      <div class="flex-1 grid gap-2">
+        <input data-serv="${i}" data-f="title" value="${s.title}" class="px-3 py-2 rounded-lg border border-black/10 text-sm font-bold">
+        <textarea data-serv="${i}" data-f="desc" rows="2" class="px-3 py-2 rounded-lg border border-black/10 text-sm">${s.desc}</textarea>
+        <input data-serv="${i}" data-f="icon" value="${s.icon}" class="px-3 py-2 rounded-lg border border-black/10 text-xs" placeholder="fa-icon">
+      </div>
+      <button onclick="removeService(${i})" class="self-start w-9 h-9 rounded-full bg-red-50 text-red-600 flex items-center justify-center hover:bg-red-100"><i class="fa-solid fa-trash text-xs"></i></button>
+    </div>
+  `).join('');
+  // projects table
+  document.getElementById('projectsTable').innerHTML=db.projects.map(p=>`
+    <tr>
+      <td class="py-3 px-2"><div class="flex gap-3 items-center"><img src="${p.img}" class="w-12 h-12 rounded-xl object-cover"><div><div class="font-bold text-navy">${p.title}</div><div class="text-xs text-black/50 line-clamp-1">${p.desc}</div></div></div></td>
+      <td class="py-3"><span class="px-3 py-1 rounded-full bg-[#F1F3F6] text-xs font-bold">${p.cat}</span></td>
+      <td class="py-3"><div class="flex gap-2"><button onclick="editProject(${p.id})" class="w-8 h-8 rounded-full bg-navy text-white flex items-center justify-center"><i class="fa-solid fa-pen text-[11px]"></i></button><button onclick="deleteProject(${p.id})" class="w-8 h-8 rounded-full bg-red-50 text-red-600 flex items-center justify-center"><i class="fa-solid fa-trash text-[11px]"></i></button></div></td>
+    </tr>
+  `).join('');
+  // articles
+  document.getElementById('articlesTable').innerHTML=db.articles.map(a=>`
+    <div class="p-4 rounded-xl border border-black/5 bg-[#F8F9FA] flex gap-3">
+      <img src="${a.img}" class="w-16 h-16 rounded-xl object-cover shrink-0">
+      <div class="flex-1"><div class="font-bold text-sm text-navy line-clamp-1">${a.title}</div><div class="text-xs text-black/50 line-clamp-2 mt-1">${a.excerpt}</div><div class="flex gap-2 mt-2"><button onclick="editArticle(${a.id})" class="text-xs px-3 py-1 rounded-full bg-navy text-white">تعديل</button><button onclick="deleteArticle(${a.id})" class="text-xs px-3 py-1 rounded-full bg-red-50 text-red-600">حذف</button></div></div>
+    </div>
+  `).join('');
+  // clients
+  document.getElementById('clientsEditors').innerHTML=db.clients.map((c,i)=>`
+    <div class="flex gap-2"><input data-ci="${i}" value="${c}" class="flex-1 px-3 py-2.5 rounded-xl border border-black/10 bg-[#F8F9FA] text-sm"><button onclick="removeClient(${i})" class="w-10 h-10 rounded-xl bg-red-50 text-red-600 flex items-center justify-center"><i class="fa-solid fa-xmark text-xs"></i></button></div>
+  `).join('');
+  // contact
+  document.getElementById('editAddress').value=db.contact.address;
+  document.getElementById('editPhone').value=db.contact.phone;
+  document.getElementById('editEmail').value=db.contact.email;
+  document.getElementById('editFooter').value=db.contact.footer;
+  document.getElementById('editFb').value=db.contact.fb;
+  document.getElementById('editIg').value=db.contact.ig;
+  document.getElementById('kpiProjects').textContent=db.projects.length;
+  document.getElementById('kpiArticles').textContent=db.articles.length;
+}
+
+/* Save handlers */
+function saveHero(){
+  db.hero.title=document.getElementById('editHeroTitle').value;
+  db.hero.sub=document.getElementById('editHeroSub').value;
+  db.hero.desc=document.getElementById('editHeroDesc').value;
+  db.hero.cta=document.getElementById('editCta').value;
+  saveDB(); renderHero(); toast('تم حفظ المحتوى الرئيسي ✅','success');
+}
+function saveStats(){
+  document.querySelectorAll('#statsEditors [data-si]').forEach(inp=>{
+    const i=parseInt(inp.dataset.si); const f=inp.dataset.field;
+    db.stats[i][f]= f==='value'? parseInt(inp.value)||0 : inp.value;
+  });
+  saveDB(); renderStats(); toast('تم حفظ الإحصائيات ✅','success');
+}
+function addService(){db.services.push({title:'خدمة جديدة',desc:'وصف الخدمة',icon:'fa-star'}); saveDB(); refreshDashboard(); toast('تمت إضافة خدمة','success');}
+function removeService(i){db.services.splice(i,1); saveDB(); refreshDashboard(); renderServices(); toast('تم حذف الخدمة','success');}
+function saveServices(){
+  document.querySelectorAll('#servicesEditors [data-serv]').forEach(inp=>{
+    const i=parseInt(inp.dataset.serv); const f=inp.dataset.f; db.services[i][f]=inp.value;
+  });
+  saveDB(); renderServices(); toast('تم حفظ الخدمات ✅','success');
+}
+function saveClients(){
+  const inputs=document.querySelectorAll('#clientsEditors [data-ci]');
+  db.clients=Array.from(inputs).map(i=>i.value.trim()).filter(Boolean);
+  saveDB(); renderClients(); refreshDashboard(); toast('تم حفظ العملاء ✅','success');
+}
+function addClient(){db.clients.push('عميل جديد'); saveDB(); refreshDashboard();}
+function removeClient(i){db.clients.splice(i,1); saveDB(); refreshDashboard(); renderClients();}
+function saveContact(){
+  db.contact.address=document.getElementById('editAddress').value;
+  db.contact.phone=document.getElementById('editPhone').value;
+  db.contact.email=document.getElementById('editEmail').value;
+  db.contact.footer=document.getElementById('editFooter').value;
+  db.contact.fb=document.getElementById('editFb').value;
+  db.contact.ig=document.getElementById('editIg').value;
+  saveDB(); renderContact(); toast('تم حفظ معلومات التواصل ✅','success');
+}
+function clearAllData(){if(confirm('هل أنت متأكد من إعادة تعيين كل البيانات؟')){localStorage.removeItem(LS_KEY); db=loadDB(); saveDB(); fullRender(); refreshDashboard(); toast('تمت إعادة التعيين','success');}}
+
+/* Projects CRUD */
+let editingProj=null;
+function openProjectModal(){editingProj=null; document.getElementById('projectModalTitle').textContent='مشروع جديد'; ['projId','projTitle','projCat','projDesc','projImg','projResult'].forEach(id=>document.getElementById(id).value=''); document.getElementById('projectModal').classList.remove('hidden');}
+function closeProjectModal(){document.getElementById('projectModal').classList.add('hidden');}
+function editProject(id){const p=db.projects.find(x=>x.id===id); if(!p) return; editingProj=id; document.getElementById('projectModalTitle').textContent='تعديل مشروع'; document.getElementById('projId').value=p.id; document.getElementById('projTitle').value=p.title; document.getElementById('projCat').value=p.cat; document.getElementById('projDesc').value=p.desc; document.getElementById('projImg').value=p.img; document.getElementById('projResult').value=p.result; document.getElementById('projectModal').classList.remove('hidden');}
+function saveProject(){
+  const data={title:document.getElementById('projTitle').value.trim(), cat:document.getElementById('projCat').value, desc:document.getElementById('projDesc').value.trim(), img:document.getElementById('projImg').value.trim()||'https://images.unsplash.com/photo-1558655146-d09347e92766?w=700&q=80', result:document.getElementById('projResult').value.trim()||'—'};
+  if(!data.title||!data.desc) return toast('أكمل البيانات المطلوبة','error');
+  if(editingProj){const idx=db.projects.findIndex(x=>x.id===editingProj); db.projects[idx]={...db.projects[idx],...data};}
+  else {db.projects.unshift({id:Date.now(),...data});}
+  saveDB(); renderProjects(); refreshDashboard(); closeProjectModal(); toast('تم حفظ المشروع ✅','success');
+}
+function deleteProject(id){if(!confirm('حذف المشروع؟'))return; db.projects=db.projects.filter(x=>x.id!==id); saveDB(); renderProjects(); refreshDashboard(); toast('تم حذف المشروع','success');}
+
+/* Articles CRUD */
+let editingArt=null;
+function openArticleModal(){editingArt=null; document.getElementById('articleModalTitle').textContent='مقال جديد'; ['artId','artTitle','artCat','artExcerpt','artImg','artTime'].forEach(id=>document.getElementById(id).value=''); document.getElementById('articleModal').classList.remove('hidden');}
+function closeArticleModal(){document.getElementById('articleModal').classList.add('hidden');}
+function editArticle(id){const a=db.articles.find(x=>x.id===id); if(!a) return; editingArt=id; document.getElementById('articleModalTitle').textContent='تعديل مقال'; document.getElementById('artId').value=a.id; document.getElementById('artTitle').value=a.title; document.getElementById('artCat').value=a.cat; document.getElementById('artExcerpt').value=a.excerpt; document.getElementById('artImg').value=a.img; document.getElementById('artTime').value=a.time; document.getElementById('articleModal').classList.remove('hidden');}
+function saveArticle(){
+  const data={title:document.getElementById('artTitle').value.trim(), cat:document.getElementById('artCat').value.trim()||'تسويق', excerpt:document.getElementById('artExcerpt').value.trim(), img:document.getElementById('artImg').value.trim()||'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80', time:document.getElementById('artTime').value.trim()||'5 دقائق'};
+  if(!data.title||!data.excerpt) return toast('أكمل البيانات','error');
+  if(editingArt){const idx=db.articles.findIndex(x=>x.id===editingArt); db.articles[idx]={...db.articles[idx],...data};}
+  else {db.articles.unshift({id:Date.now(),...data});}
+  saveDB(); renderArticles(); refreshDashboard(); closeArticleModal(); toast('تم حفظ المقال ✅','success');
+}
+function deleteArticle(id){if(!confirm('حذف المقال؟'))return; db.articles=db.articles.filter(x=>x.id!==id); saveDB(); renderArticles(); refreshDashboard(); toast('تم حذف المقال','success');}
+
+/* Close modals on backdrop */
+document.getElementById('projectModal').addEventListener('click',e=>{if(e.target.id==='projectModal')closeProjectModal()});
+document.getElementById('articleModal').addEventListener('click',e=>{if(e.target.id==='articleModal')closeArticleModal()});
+
+// ensure initial admin check
+checkAdmin();
+</script>
+</body>
+</html>
